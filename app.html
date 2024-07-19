@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculadora com API</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div style='text-align:center'>
+        <h1>Calculadora</h1>
+
+        <div>
+            Número 1
+            <input id="num1" type="number"></input>
+        </div>
+        <br>
+        <div>
+            Número 2
+            <input id="num2" type="number"></input>
+        </div>
+        <br>
+
+        <div>
+            Escolha a operação desejada:
+            <input name="operacao" type="radio" value="+"> + </input>
+            <input name="operacao" type="radio" value="-"> - </input>
+            <input name="operacao" type="radio" value="*"> * </input>
+            <input name="operacao" type="radio" value="/"> / </input>
+        </div>
+        <br>
+        <button onclick="calcular()"> = </button>
+        <br><br>
+        <div>
+            Resultado da conta = <p id="resultado">N/A</p>
+        </div>
+    </div>
+</body>
+
+</html>
